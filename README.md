@@ -15,7 +15,8 @@ This repository contains the code and documentation for a capstone design projec
 ![Untitled video - Made with Clipchamp (3)](https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/14d8e611-1522-433e-9fc2-57b47e61e484)
 
 Progress of drone assembling with full test rig: (2024-02-04)
-![MicrosoftTeams-image](https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/1c8f06bb-7c54-4ef0-9c83-943eb5775483)
+![MicrosoftTeams-image](https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/4818b15e-df76-4f0a-ac78-adac5046ec5d)
+
 
 
 ## Project Structure
