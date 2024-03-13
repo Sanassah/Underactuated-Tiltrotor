@@ -1,0 +1,29 @@
+[
+	{
+		"to_flash_electronics_type": 3,
+		"to_flash_hardware_type": 29
+	},
+
+	{
+		"allowed_flashing": [
+			{
+				"type": "main",
+				"start": "0x08000000",
+				"length": 57344,
+				"style": 3,
+				"major": 0,
+				"minor": 0,
+				"patch": 27
+			}		
+		]
+	},
+
+	{
+		"firmware style": "pulsing"
+	},
+
+	{
+		"date released": "11/29/23",
+		"release number": 0
+	}
+]
