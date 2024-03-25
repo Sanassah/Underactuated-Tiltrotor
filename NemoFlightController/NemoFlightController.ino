@@ -643,7 +643,7 @@ void controlANGLE() {
  
  
   //Yaw, stablize on rate from GyroZ
-  error_yaw = yaw_des - 10*GyroZ_L -3; //GyroZ_C
+  error_yaw = yaw_des - 30*GyroZ_L; //GyroZ_C
   integral_yaw = integral_yaw_prev + error_yaw * dt;
   if (channel_3_pwm < 1060) {  //Don't let integrator build if throttle is too low
     integral_yaw = 0;
