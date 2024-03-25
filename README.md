@@ -2,34 +2,52 @@
 
 ## Overview
 
-This repository contains the code and documentation for a capstone design project by a team of seven undergraduate students. The project aimed to create an underactuated tiltrotor aircraft inspired by the NEMO tiltrotor UAV. The aircraft is designed to achieve vertical takeoff and landing, horizontal cruising, and hovering capabilities through an innovative controller that eliminates the need for servo actuators and traditional tilt mechanisms.
+This repository contains the code and documentation for the capstone design project of seven aerospace engineering students from Concordia University. The project aimed to create an underactuated tiltrotor aircraft inspired by the [NEMO tiltrotor UAV](https://www.youtube.com/watch?v=_jHHTOk8GEQ&ab_channel=STEEVIE2376). The aircraft is designed to achieve vertical takeoff and landing, horizontal cruising, and hovering capabilities through a propulsion system that eliminates the need for servo actuators and traditional tilt mechanisms.
+
+Here is the video of our tiltrotor test stand Dory to prove that servo motors are not needed to vector the thrust of the propellers!
+
+<p align="center">
+    <a href="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/14d8e611-1522-433e-9fc2-57b47e61e484">
+        <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/14d8e611-1522-433e-9fc2-57b47e61e484" alt="Tilt Rotor Test Video" width="560" height="315">
+    </a>
+</p>
+
 
 ## Key Features
 
-- **Unique Engine Design:** The aircraft features a distinctive engine design that replaces the Electronic Speed Controller and traditional tilt mechanisms with Pulsing firmware. This firmware is used to vector thrust from the propellers, contributing to the elimination of traditional components for long-range surveillance.
+- **Unique Engine Design:** The aircraft features distinctive motors and propellers from [Vertiq](https://www.vertiq.co/) that replaces the traditional tilt mechanisms of servos with a pulsing voltage and hinge capable of angling the propellers with each acceleration and deceleration in each revolution. 
 
-- **Efficiency Testing:** To ensure the efficiency and effectiveness of the aircraft, a series of validation tests and analyses were conducted. These tests include the Angle Rotor Test, Thrust Test, and Tiltrotor test, all aimed at optimizing the design for superior performance.
-
-- **Innovation in Aeronautical Design:** This project showcases the team's dedication to engineering innovation and efficiency in aeronautical design. Underactuated tiltrotors present a promising solution to the energy consumption and maneuverability challenges faced by traditional tiltrotors used in aerial robotics.
-
-![Untitled video - Made with Clipchamp (3)](https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/14d8e611-1522-433e-9fc2-57b47e61e484)
-
-Progress of drone assembling with full test rig: (2024-02-04)
-![MicrosoftTeams-image](https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/4818b15e-df76-4f0a-ac78-adac5046ec5d)
+<p align="center">
+    <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/f7f2a61d-906c-47e4-a8c5-7df77d079b6d" width="350" />
+</p>
 
 
-
-## Project Structure
-
-- **Documentation:** Comprehensive documentation related to the project, including design specifications, test results, and analysis reports.
-
-- **Firmware:** The firmware directory holds the Pulsing firmware code responsible for vectoring thrust from the propellers and controlling the underactuated tiltrotor.
-
-- **Tests:** Scripts and data from various validation tests conducted during the development process.
+- **Custom Flight Controller:** Due to the unique configuration and technology of the aircraft, for which no pre-made flight computer is suitable, we opted to develop a custom flight controller using a Teensy 4.1 microcontroller. [DRehmFlight open source flight controller code](https://github.com/nickrehm/dRehmFlight) by Nick Rehm served as a base for our attitude control design.
 
 
-## Future Development
+## Progress so far!
 
-While the project represents a significant step towards underactuated tiltrotors, there is room for further development. The complex nature of underactuated-based systems, characterized by nonlinear dynamics and multi-objective optimization requirements, poses challenges that need to be addressed for scalability and advancement in the field of aerial robotics.
+Many many hours of design and assembly! (2024-02-02):
 
-Contributions and collaborations are welcome to overcome these challenges and push the boundaries of underactuated tiltrotor technology.
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/207bde94-2ea4-4e9d-ad4d-8cb5cf5c115a" width="400" />
+
+Assembly of the 3D printed parts on the attitude test stand Marlin (2024-02-04):
+
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/0c572364-1377-48d9-8e12-6d73bd850a50" width="300" />
+
+Assembly of the electrical system (2024-02-09):
+
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/415006fa-6b79-466a-9398-c79e68e9142e" width="500" />
+
+Assembled Drone (2024-02-11):
+
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/b53f768a-0b1b-4778-8718-e72504cf0644" width="500" />
+
+Attitude test attached to ground (2024-03-11):
+
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/23f82de0-f94e-4159-a194-c9a30ec939ff" width="400" />
+
+Bunny Hop! Unfortunetaly by the end of testing day, we chipped the props and it seemes like we were missing some thrust (2024-03-11):
+
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/c0950ae3-f504-434b-a5d8-8251271f84d8" width="500" />
+
