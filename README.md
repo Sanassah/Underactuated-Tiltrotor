@@ -34,9 +34,9 @@ Here is the video of our tiltrotor test stand Dory to prove that servo motors ar
 Many many hours of design and assembly! (2024-02-02):
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/207bde94-2ea4-4e9d-ad4d-8cb5cf5c115a" width="240" />
-    <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/26fe3620-7bae-4857-be4c-1d9656789f56" width="240" />
-    <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/e4490193-ff94-48db-8bb7-0a5df9d62894" width="240" />
+    <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/207bde94-2ea4-4e9d-ad4d-8cb5cf5c115a" width="300" />
+    <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/26fe3620-7bae-4857-be4c-1d9656789f56" width="300" />
+    <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/e4490193-ff94-48db-8bb7-0a5df9d62894" width="300" />
 </div>
 
 Assembly of the 3D printed parts on the attitude test stand Marlin (2024-02-04):
