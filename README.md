@@ -51,3 +51,11 @@ Bunny Hop! Unfortunetaly by the end of testing day, we chipped the props and it 
 
 <img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/c0950ae3-f504-434b-a5d8-8251271f84d8" width="500" />
 
+First Hover test!!! (2024-03-25):
+
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/50035ca9-4d8d-413a-8b20-f5b3887c2c20" width="500" />
+
+Tried to gain some horizontal speed and fatal crash unfortunately because nacelles touched the ground and thrust to weight ratio was too low to recover the aircraft, props got damaged and they are pretty expensive so testing will be paused for now (2024-03-25):
+
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/1ce4f9af-1b4b-4f86-b538-755c065a02ae" width="500" />
+
