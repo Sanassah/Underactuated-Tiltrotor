@@ -65,5 +65,5 @@ First Hover test!!! (2024-03-25):
 
 Tried to gain some horizontal speed and fatal crash unfortunately because nacelles touched the ground and thrust to weight ratio was too low to recover the aircraft, props got damaged and they are pretty expensive so testing will be paused for now (2024-03-25):
 
-<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/1ce4f9af-1b4b-4f86-b538-755c065a02ae" width="500" />
+<img src="https://github.com/Sanassah/Underactuated-Tiltrotor/assets/89364990/1abce49c-c3ac-48fd-8620-ff297391568a" width="500" />
 
