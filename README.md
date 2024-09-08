@@ -28,6 +28,9 @@ Here is the video of our tiltrotor test stand Dory to prove that servo motors ar
 
 - **Custom Flight Controller:** Due to the unique configuration and technology of the aircraft, for which no pre-made flight computer is suitable, we opted to develop a custom flight controller using a Teensy 4.1 microcontroller. [DRehmFlight open source flight controller code](https://github.com/nickrehm/dRehmFlight) by Nick Rehm served as a base for our attitude control design.
 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/1be04d7a-d43b-477f-b32a-9e2b7203514c" width="800" />
+</p>
 
 ## Progress so far!
 
